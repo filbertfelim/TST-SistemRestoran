@@ -20,14 +20,14 @@ Mengembalikan data seluruh restoran
 HTTP *method* : **GET**
 
 *Request body example*
-```json
+```jsonc
 {
    “username”: string, 
    “password” : string
 }
 ```
 *Response body example*
-```json
+```jsonc
 {
    “id”: int,
    “namaRestoran”: string, 
@@ -45,14 +45,14 @@ Mengembalikan data restoran berdasarkan ID restoran yang diminta
 HTTP *method* : **GET**
 
 *Request body example*
-```json
+```jsonc
 {
    “username”: string, 
    “password” : string
 }
 ```
 *Response body example*
-```json
+```jsonc
 {
    “id”: int,
    “namaRestoran”: string, 
@@ -68,14 +68,14 @@ Mengembalikan data makanan berdasarkan ID restoran yang diminta
 HTTP *method* : **GET**
 
 *Request body example*
-```json
+```jsonc
 {
    “username”: string, 
    “password” : string
 }
 ```
 *Response body example*
-```json
+```jsonc
 {
    “id”: int,
    “namaMakanan”: string, 
